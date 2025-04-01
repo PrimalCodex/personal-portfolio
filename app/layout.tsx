@@ -29,9 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={cabin.className}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiasing bg-white min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiasing min-h-screen`}
       >
-        <div className="max-w-screen-xl bg-gray-100 mx-auto px-4 py-8">
+        <div>
           {children}
         </div>
       </body>
