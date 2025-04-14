@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be4361e6-859d-4a10-b85a-6e80bc5b59e6" name="Changes" comment="add/projects section, projects card/projects modal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Nedim &lt;nkevro31@gmial.com&gt;" />
@@ -67,6 +83,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Korisnik\\WebstormProjects\\portfolio\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -130,7 +147,9 @@
       <workItem from="1744225606526" duration="5395000" />
       <workItem from="1744287986332" duration="68000" />
       <workItem from="1744309021567" duration="3952000" />
-      <workItem from="1744313624498" duration="823000" />
+      <workItem from="1744313624498" duration="1944000" />
+      <workItem from="1744372999293" duration="6000" />
+      <workItem from="1744659531192" duration="1427000" />
     </task>
     <task id="LOCAL-00001" summary="portofolio">
       <option name="closed" value="true" />
