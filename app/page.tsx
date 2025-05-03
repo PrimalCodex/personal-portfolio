@@ -2,7 +2,6 @@
 
 import {Header} from "@/app/components/Header";
 import React, {useState} from "react";
-import ProjectCard from "@/app/components/Project-Section/ProjectCard";
 import {projectData} from "@/app/components/Project-Section/projects";
 import ProjectsSection from "@/app/components/Project-Section/ProjectSection";
 
@@ -32,7 +31,7 @@ export default function Home() {
           <button
             className="inline-block px-6 mt-5 py-3 bg-gradient-to-r from-gray-500 via-gray-700 to-gray-900 text-white
             rounded-md hover:bg-gray-800 transition">
-            <a href="/cv.pdf" download>
+            <a href="/NedimKevro-CV.pdf" download>
               Download CV
             </a>
           </button>
