@@ -36,7 +36,7 @@ export default function ProjectModal({
               </Dialog.Title>
               <p className="text-gray-700 mb-4">{description}</p>
 
-              <div className="mb-4">
+              <div className="mb-4 relative">
                 <Swiper
                   modules={[Navigation, Pagination]}
                   navigation={{
@@ -54,6 +54,14 @@ export default function ProjectModal({
                     </SwiperSlide>
                   ))}
                 </Swiper>
+                <button
+                  className="swiper-button-prev text-4xl hover:scale-105 text-gray-500 text-center text-gray size-15 absolute top-1/2 left-0 -translate-y-1/2 z-10 p-2 bg-blend-darken rounded-full shadow-md ">
+                  ‹
+                </button>
+                <button
+                  className="swiper-button-next text-4xl hover:scale-105 text-gray-500 size-15 absolute top-1/2 right-0 -translate-y-1/2 z-10 p-2 bg-blend-darken rounded-full shadow-md hover:elev">
+                  ›
+                </button>
               </div>
               <div className="flex flex-wrap gap-2 mb-4">
                 {tech.map((t, i) => (

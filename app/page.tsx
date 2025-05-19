@@ -4,6 +4,7 @@ import {Header} from "@/app/components/Header";
 import React, {useState} from "react";
 import {projectData} from "@/app/components/Project-Section/projects";
 import ProjectsSection from "@/app/components/Project-Section/ProjectSection";
+import ContactForm from "@/app/components/ContactMe-Section/ContactForm";
 
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -30,13 +31,14 @@ export default function Home() {
           </p>
           <button
             className="inline-block px-6 mt-5 py-3 bg-gradient-to-r from-gray-500 via-gray-700 to-gray-900 text-white
-            rounded-md hover:bg-gray-800 transition">
+            rounded-md hover:bg-gray-800 hover:scale-105 transition">
             <a href="/NedimKevro-CV.pdf" download>
               Download CV
             </a>
           </button>
         </section>
-        <section id='projects' className={"flex flex-row justify-center"}>
+        <section id='projects' className={"flex flex-col justify-center"}>
+          <h2 className="text-3xl text-center font-bold text-gray-900 mb-4">Projects</h2>
           <ProjectsSection projects={projectData}/>
         </section>
         <section id="contact" className="h-screen flex flex-col justify-center items-center snap-start bg-white">
@@ -44,10 +46,7 @@ export default function Home() {
           <p className="text-lg text-gray-700 text-center mb-4">
             If you’d like to work together or just want to chat, feel free to reach out!
           </p>
-          <a href="mailto:youremail@example.com"
-             className="inline-block px-6 py-3 bg-gradient-to-r from-gray-500 via-gray-700 to-gray-900 text-white rounded-md hover:bg-gray-800 transition">
-            Send an Email
-          </a>
+          <ContactForm/>
         </section>
       </main>
     </div>
