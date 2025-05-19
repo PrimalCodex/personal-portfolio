@@ -1,5 +1,3 @@
-"use client";
-
 import {Dialog, Transition} from "@headlessui/react";
 import React, {Fragment} from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -57,7 +55,6 @@ export default function ProjectModal({
                   ))}
                 </Swiper>
               </div>
-
               <div className="flex flex-wrap gap-2 mb-4">
                 {tech.map((t, i) => (
                   <span key={i} className="bg-gray-100 text-sm text-gray-700 px-2 py-1 rounded-full">
@@ -65,9 +62,9 @@ export default function ProjectModal({
                   </span>
                 ))}
               </div>
-
               {github ? (
                 <a
+                  //projects Link
                   href={github}
                   target="_blank"
                   className="inline-block mt-2 text-blue-600 hover:underline"
