@@ -26,7 +26,7 @@ export default function Home() {
           <button
             className="inline-block px-6 mt-5 py-3 bg-gradient-to-r from-gray-500 via-gray-700 to-gray-900 text-white
             rounded-md hover:bg-gray-800 hover:scale-105 transition">
-            <a href="/NedimKevro-CV.pdf" download>
+            <a href="/NedimKevroCV.pdf" download>
               Download CV
             </a>
           </button>
