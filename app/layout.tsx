@@ -39,6 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={cabin.className}>
       <head>
+        <meta name="description" content="Nedim Kevro - Frontend Developer Portfolio"/>
+        <meta property="og:title" content="Nedim Kevro | Frontend Developer"/>
+        <meta property="og:description" content="Specializing in clean, scalable React apps."/>
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8VCZ0RRCN4"
@@ -56,6 +59,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiasing min-h-screen`}
       >
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} // Replace with your GA ID
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX'); // Replace with your GA ID
+        `}
+        </Script>
         <div>{children}</div>
       </body>
     </html>

@@ -28,8 +28,8 @@ export default function ProjectModal({
       <Dialog as="div" className="relative z-50 " onClose={closeModal}>
         <div className="fixed inset-0 bg-black bg-opacity-30"/>
         <div className="fixed max-h-full inset-0 overflow-y-auto">
-          <div className="flex min-h-full items-center justify-center p-4">
-            <Dialog.Panel className="w-full max-w-3xl transform overflow-hidden rounded-2xl bg-white p-6 text-left
+          <div className="flex min-h-full items-center justify-center ">
+            <Dialog.Panel className="w-full h-full  transform overflow-hidden bg-white p-6 text-left
             align-middle shadow-xl transition-all">
               <Dialog.Title as="h3" className="text-2xl font-bold text-gray-900 mb-4">
                 {title}

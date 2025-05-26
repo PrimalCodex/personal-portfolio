@@ -6,7 +6,6 @@ import {Menu, X} from "lucide-react";
 export const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
-  // Close menu on scroll or route (hash) change
   useEffect(() => {
     const handleClose = () => setMenuOpen(false);
 

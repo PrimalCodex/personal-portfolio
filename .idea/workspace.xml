@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be4361e6-859d-4a10-b85a-6e80bc5b59e6" name="Changes" comment="Adding cv and fixing header">
-      <change afterPath="$PROJECT_DIR$/app/components/ContactMe-Section/ContactForm.tsx" afterDir="false" />
+    <list default="true" id="be4361e6-859d-4a10-b85a-6e80bc5b59e6" name="Changes" comment="ContactMe Form MVP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ContactMe-Section/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ContactMe-Section/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/Project-Section/ProjectModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Project-Section/ProjectModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Project-Section/ProjectSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Project-Section/ProjectSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Project-Section/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Project-Section/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,11 @@
       <list>
         <option value="Nedim &lt;nkevro31@gmial.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="my-profile-backup" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -157,7 +162,11 @@
       <workItem from="1744664512988" duration="7000" />
       <workItem from="1746311196405" duration="4459000" />
       <workItem from="1746432608636" duration="217000" />
-      <workItem from="1747491837893" duration="12765000" />
+      <workItem from="1747491837893" duration="14092000" />
+      <workItem from="1747847610292" duration="306000" />
+      <workItem from="1747848131506" duration="4029000" />
+      <workItem from="1748023277048" duration="9000" />
+      <workItem from="1748253317954" duration="921000" />
     </task>
     <task id="LOCAL-00001" summary="portofolio">
       <option name="closed" value="true" />
@@ -223,11 +232,30 @@
       <option name="project" value="LOCAL" />
       <updated>1747663887853</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ContactMe Form MVP">
+      <option name="closed" value="true" />
+      <created>1747672862526</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747672862526</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -235,7 +263,8 @@
     <MESSAGE value="portofolio" />
     <MESSAGE value="add/projects section, projects card/projects modal" />
     <MESSAGE value="Adding cv and fixing header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding cv and fixing header" />
+    <MESSAGE value="ContactMe Form MVP" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContactMe Form MVP" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
